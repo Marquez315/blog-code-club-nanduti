@@ -120,10 +120,6 @@
           "text": "Colegio Secundario de Adolescentes y Adultos Sargento Juan Bautista Cabral.\n4° Edición de Tras las Huellas de Nuestros Pueblos Originarios 2025\nCompartimos esta Edición para que puedas conocerla"
         },
         {
-          "type": "video",
-          "url": "https://www.youtube.com/watch?v=j0611VwF47Q"
-        },
-        {
           "type": "photos",
           "images": [
             {
@@ -131,10 +127,14 @@
               "caption": ""
             }
           ]
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=j0611VwF47Q"
         }
       ],
       "created": 1790049881506,
-      "updated": 1790050240942
+      "updated": 1790050957344
     },
     {
       "id": "2025-09-25-10-edicion-de-la-semana-de-las-ciencias-y-tecnolog",
