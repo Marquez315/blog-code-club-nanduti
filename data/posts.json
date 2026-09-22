@@ -196,6 +196,15 @@
           "text": "3° Edición Expo Carreras Santo Tomé Ciudad Universitaria"
         },
         {
+          "type": "photos",
+          "images": [
+            {
+              "src": "images/2025-08-01-3-edicion-expo-carreras-santo-tome-ciudad-universi/muc5vqpk-1.jpg",
+              "caption": ""
+            }
+          ]
+        },
+        {
           "type": "video",
           "url": "https://www.youtube.com/watch?v=9cYHoGDrAcY"
         },
@@ -206,19 +215,10 @@
         {
           "type": "video",
           "url": "https://www.youtube.com/watch?v=U8nk6Rli2X4"
-        },
-        {
-          "type": "photos",
-          "images": [
-            {
-              "src": "images/2025-08-01-3-edicion-expo-carreras-santo-tome-ciudad-universi/muc5vqpk-1.jpg",
-              "caption": ""
-            }
-          ]
         }
       ],
       "created": 1790049601474,
-      "updated": 1790050554885
+      "updated": 1790051003032
     },
     {
       "id": "2024-09-12-9-edicion-institucional-de-la-semana-nacional-de-l",
