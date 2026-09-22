@@ -2,6 +2,40 @@
   "version": 1,
   "posts": [
     {
+      "id": "2024-10-09-robot-mini-sumo",
+      "title": "Robot mini sumo",
+      "date": "2024-10-09",
+      "tags": [
+        "Proyecta y Construye",
+        "robótica",
+        "programación"
+      ],
+      "cover": "images/2024-10-09-robot-mini-sumo/muc6uz5b-1.jpg",
+      "summary": "didactica_aumentada3.0 #roboticavirasoro #programacionvirasoro #enseñanza #formación #educacion #aprende #docentes #culturageneral #gamificación #secundaria #pr",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "didactica_aumentada3.0\n#roboticavirasoro  #programacionvirasoro #enseñanza #formación #educacion  #aprende #docentes  #culturageneral #gamificación  #secundaria  #primaria  #conocimiento #steameducation  #tecnologia #culturamaker\n#Virasoro  #virasorociudad \n#corrientesvirasoro #Virasorocorrientes  #compartítuexperiencia #ministeriodeeducacion\n  #aprendizajecooperativo\n #seguimoseducando #educacionsecundaria  #virasorovirtual \n  #santotomecorrientes #educacioncorrientes  #santotoméhaciaadelante  #feriaeducativa"
+        },
+        {
+          "type": "photos",
+          "images": [
+            {
+              "src": "images/2024-10-09-robot-mini-sumo/muc6uz5b-1.jpg",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "type": "link",
+          "label": "Robot mini sumo",
+          "url": "https://www.instagram.com/didactica_aumentada3.0/reel/DA5_zdhP3eA/"
+        }
+      ],
+      "created": 1790052198833,
+      "updated": 1790052198833
+    },
+    {
       "id": "2024-10-23-expoesvo2024",
       "title": "expoesvo2024",
       "date": "2024-10-23",
