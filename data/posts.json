@@ -2,6 +2,39 @@
   "version": 1,
   "posts": [
     {
+      "id": "2025-11-10-la-s-rgento-streaming",
+      "title": "La S@rgento Streaming",
+      "date": "2025-11-10",
+      "tags": [
+        "La Sargento Streaming",
+        "Streaming",
+        "Proyecta y Construye"
+      ],
+      "cover": "images/2025-11-10-la-s-rgento-streaming/muc5r3ky-1.jpg",
+      "summary": "Colegio Secundario de Adolescentes y Adultos Sargento Juan Bautista Cabral. DIA DE LA TRADICIÓN Compartimos esta Edición para que puedas conocerla",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Colegio Secundario de Adolescentes y Adultos Sargento Juan Bautista Cabral.\nDIA DE LA TRADICIÓN\nCompartimos esta Edición para que puedas conocerla"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=b64NOCsUiws"
+        },
+        {
+          "type": "photos",
+          "images": [
+            {
+              "src": "images/2025-11-10-la-s-rgento-streaming/muc5r3ky-1.jpg",
+              "caption": ""
+            }
+          ]
+        }
+      ],
+      "created": 1790050338459,
+      "updated": 1790050338459
+    },
+    {
       "id": "2025-11-10-la-sargento-streaming",
       "title": "La Sargento Streaming",
       "date": "2025-11-10",
