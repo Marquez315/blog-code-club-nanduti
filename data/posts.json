@@ -2,6 +2,43 @@
   "version": 1,
   "posts": [
     {
+      "id": "2024-10-23-expoesvo2024",
+      "title": "expoesvo2024",
+      "date": "2024-10-23",
+      "tags": [
+        "exposiciones",
+        "expoesvo",
+        "impresión-3d",
+        "robótica",
+        "programación",
+        "fundación ñanduti"
+      ],
+      "cover": "images/2024-10-23-expoesvo2024/muc6qrrz-1.jpg",
+      "summary": "🏫Expo Esvo 2024. 👾 #expoesvo2024 #roboticavirasoro #programacionvirasoro #enseñanza #formación #educacion #aprende #docentes #culturageneral #gamificación #se",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "🏫Expo Esvo 2024. 👾 #expoesvo2024\n\n#roboticavirasoro  #programacionvirasoro #enseñanza #formación #educacion  #aprende #docentes  #culturageneral #gamificación  #secundaria  #primaria  #conocimiento #steameducation  #tecnologia #culturamaker\n#Virasoro  #virasorociudad \n#corrientesvirasoro #Virasorocorrientes  #compartítuexperiencia #ministeriodeeducacion\n  #aprendizajecooperativo\n #seguimoseducando #educacionsecundaria  #virasorovirtual \n  #santotomecorrientes #educacioncorrientes  #santotoméhaciaadelante  #feriaeducativa"
+        },
+        {
+          "type": "photos",
+          "images": [
+            {
+              "src": "images/2024-10-23-expoesvo2024/muc6qrrz-1.jpg",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "type": "link",
+          "label": "Expo Esvo 2024",
+          "url": "https://www.instagram.com/didactica_aumentada3.0/reel/DBewlQpP0ld/"
+        }
+      ],
+      "created": 1790052002481,
+      "updated": 1790052002481
+    },
+    {
       "id": "2025-05-20-taller-de-ajedrez-minecraft",
       "title": "Taller  de ajedrez ♟️#minecraft",
       "date": "2025-05-20",
