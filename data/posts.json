@@ -2,6 +2,30 @@
   "version": 1,
   "posts": [
     {
+      "id": "2024-07-13-expo-carreras-santo-tome-ciudad-universitaria-segu",
+      "title": "Expo Carreras Santo Tomé Ciudad Universitaria. Segunda Edición",
+      "date": "2024-07-13",
+      "tags": [
+        "fundación ñanduti",
+        "Expo Carreras Santo Tomé",
+        "exposiciones"
+      ],
+      "cover": "",
+      "summary": "Segunda Edición Expo Carreras Santo Tomé Ciudad Universitaria.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Segunda Edición Expo Carreras Santo Tomé Ciudad Universitaria."
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=-L9yBB7vWw4"
+        }
+      ],
+      "created": 1790049239949,
+      "updated": 1790049239949
+    },
+    {
       "id": "2025-11-03-centro-de-formacion-profesional-pablo-navajas-arta",
       "title": "Centro de Formación Profesional Pablo Navajas Artaza. 👨🏽‍💻 Proyecta y Construye, Impresión 3D en la Cadena Producción",
       "date": "2025-11-03",
