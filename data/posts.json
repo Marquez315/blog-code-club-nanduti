@@ -2,6 +2,40 @@
   "version": 1,
   "posts": [
     {
+      "id": "2025-09-25-10-edicion-de-la-semana-de-las-ciencias-y-tecnolog",
+      "title": "10° Edición de la Semana de las Ciencias y Tecnologías. Colegio Secundario Sargento Cabral",
+      "date": "2025-09-25",
+      "tags": [
+        "semana de la ciencia",
+        "robótica",
+        "impresión-3d",
+        "fundación ñanduti",
+        "programación"
+      ],
+      "cover": "",
+      "summary": "Primer Jornada. Charlas de profesionales",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Primer Jornada.\nCharlas de profesionales"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=qm89lXCoHE8"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=HLHHhPINfI8"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=RDuuYZbV0R0"
+        }
+      ],
+      "created": 1790049769738,
+      "updated": 1790049769738
+    },
+    {
       "id": "2025-08-01-3-edicion-expo-carreras-santo-tome-ciudad-universi",
       "title": "3° Edición Expo Carreras Santo Tomé Ciudad Universitaria",
       "date": "2025-08-01",
