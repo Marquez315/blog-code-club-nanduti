@@ -53,10 +53,6 @@
           "text": "Colegio Secundario de Adolescentes y Adultos Sargento Juan Bautista Cabral.\nDIA DE LA TRADICIÓN\nCompartimos esta Edición para que puedas conocerla"
         },
         {
-          "type": "video",
-          "url": "https://www.youtube.com/watch?v=b64NOCsUiws"
-        },
-        {
           "type": "photos",
           "images": [
             {
@@ -64,10 +60,14 @@
               "caption": ""
             }
           ]
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=b64NOCsUiws"
         }
       ],
       "created": 1790050338459,
-      "updated": 1790050338459
+      "updated": 1790050933930
     },
     {
       "id": "2025-11-10-la-sargento-streaming",
