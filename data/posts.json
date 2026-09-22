@@ -2,6 +2,80 @@
   "version": 1,
   "posts": [
     {
+      "id": "2024-09-15-semana-nacional-de-la-ciencias-y-la-tecnologias",
+      "title": "🤖Semana Nacional de la Ciencias y la Tecnologías",
+      "date": "2024-09-15",
+      "tags": [
+        "Proyecta y Construye",
+        "semana de la ciencia",
+        "robótica",
+        "programación",
+        "exposiciones",
+        "fundación ñanduti",
+        "impresión-3d"
+      ],
+      "cover": "images/2024-09-15-semana-nacional-de-la-ciencias-y-la-tecnologias/muc7gakj-3.jpg",
+      "summary": "🤖Semana Nacional de la Ciencias y la Tecnologías👨🏽‍🔬 Colegio Sargento Juan Bautista Cabral 🏫 #roboticavirasoro #programacionvirasoro #enseñanza #formación ",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "🤖Semana Nacional de la Ciencias y la Tecnologías👨🏽‍🔬\nColegio Sargento Juan Bautista Cabral 🏫\n\n#roboticavirasoro  #programacionvirasoro #enseñanza #formación #educacion  #aprende #docentes  #culturageneral #gamificación  #secundaria  #primaria  #conocimiento\n#Virasoro  #virasorociudad \n#corrientesvirasoro #Virasorocorrientes  #compartítuexperiencia #ministeriodeeducacion\n  #aprendizajecooperativo\n #seguimoseducando #educacionsecundaria  #planintegraldeeducacióndigital #virasorovirtual \n  #santotomecorrientes #educacioncorrientes #feriaeducativa #sncyt #sncyt2024 #santotoméhaciaadelante"
+        },
+        {
+          "type": "photos",
+          "images": [
+            {
+              "src": "images/2024-09-15-semana-nacional-de-la-ciencias-y-la-tecnologias/muc7g8it-1.jpg",
+              "caption": ""
+            },
+            {
+              "src": "images/2024-09-15-semana-nacional-de-la-ciencias-y-la-tecnologias/muc7g9s8-2.jpg",
+              "caption": ""
+            },
+            {
+              "src": "images/2024-09-15-semana-nacional-de-la-ciencias-y-la-tecnologias/muc7gakj-3.jpg",
+              "caption": ""
+            },
+            {
+              "src": "images/2024-09-15-semana-nacional-de-la-ciencias-y-la-tecnologias/muc7gbli-4.jpg",
+              "caption": ""
+            },
+            {
+              "src": "images/2024-09-15-semana-nacional-de-la-ciencias-y-la-tecnologias/muc7gcp6-5.jpg",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "type": "link",
+          "label": "Semana Nacional de la Ciencias -1",
+          "url": "https://www.instagram.com/didactica_aumentada3.0/p/C_9jyilR2tR/"
+        },
+        {
+          "type": "link",
+          "label": "Semana Nacional de la Ciencias -2",
+          "url": "https://www.instagram.com/didactica_aumentada3.0/p/C_9gbL2RAdf/?img_index=9"
+        },
+        {
+          "type": "link",
+          "label": "Semana Nacional de la Ciencias -3",
+          "url": "https://www.instagram.com/didactica_aumentada3.0/reel/C_9eJoovj3T/"
+        },
+        {
+          "type": "link",
+          "label": "Semana Nacional de la Ciencias -4",
+          "url": "https://www.instagram.com/r.e.d_9/p/C_9PH0tPBjw/?img_index=2"
+        },
+        {
+          "type": "link",
+          "label": "Semana Nacional de la Ciencias -5",
+          "url": "https://www.instagram.com/didactica_aumentada3.0/reel/C_9MtREvMXD/"
+        }
+      ],
+      "created": 1790053195982,
+      "updated": 1790053195982
+    },
+    {
       "id": "2024-09-30-programa-de-radio-parte-3-sembrando-cultura-cultur",
       "title": "📻Programa de radio parte -3 \"Sembrando Cultura\", Cultura y Robótica 🤖🎙️",
       "date": "2024-09-30",
