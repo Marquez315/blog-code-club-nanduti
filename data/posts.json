@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "id": "2025-10-30-la-sargento-streaming",
+      "title": "La Sargento Streaming",
+      "date": "2025-10-30",
+      "tags": [
+        "Streaming",
+        "La Sargento Streaming",
+        "Proyecta y Construye",
+        "fundación ñanduti"
+      ],
+      "cover": "",
+      "summary": "Colegio Secundario de Adolescentes y Adultos Sargento Juan Bautista Cabral. 4° Edición de Tras las Huellas de Nuestros Pueblos Originarios 2025 Compartimos esta",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Colegio Secundario de Adolescentes y Adultos Sargento Juan Bautista Cabral.\n4° Edición de Tras las Huellas de Nuestros Pueblos Originarios 2025\nCompartimos esta Edición para que puedas conocerla"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=j0611VwF47Q"
+        }
+      ],
+      "created": 1790049881506,
+      "updated": 1790049881506
+    },
+    {
       "id": "2025-09-25-10-edicion-de-la-semana-de-las-ciencias-y-tecnolog",
       "title": "10° Edición de la Semana de las Ciencias y Tecnologías. Colegio Secundario Sargento Cabral",
       "date": "2025-09-25",
