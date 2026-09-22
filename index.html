@@ -7,7 +7,7 @@
 <title>Blog</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap" rel="stylesheet">
 <style>
 /* ===== Temas ===== */
 :root,html[data-theme="consola"]{
@@ -66,6 +66,14 @@ html[data-theme="hotdog"]{
   --screen:#000000; --screen-ink:#FFFF00; --bv-lt:#FFFFFF; --bv-dk:#800000;
   --f-px:Tahoma,'Segoe UI',Arial,sans-serif; --f-body:Tahoma,'Segoe UI',Arial,sans-serif;
 }
+html[data-theme="diario90"]{
+  --bg:#DCD3B8; --panel:#F4EFDC; --ink:#221C14; --ink2:#5B5240;
+  --a1:#7A1717; --a2:#1B3A5C; --a3:#C7A54A; --a4:#3B5B3A; --a5:#221C14; --on-a:#F4EFDC; --on-a3:#221C14;
+  --screen:#171310; --screen-ink:#E7DEC0; --bv-lt:#F4EFDC; --bv-dk:#8A7F61;
+  --f-px:'Playfair Display',Georgia,'Times New Roman',serif;
+  --f-body:'PT Serif',Georgia,'Times New Roman',serif;
+  --f-type:'Special Elite','Courier New',monospace;
+}
 :root{
   --f-px:'Press Start 2P','Courier New',monospace;
   --f-body:'VT323','Courier New',ui-monospace,monospace;
@@ -84,6 +92,21 @@ html[data-theme="hotdog"]{
 [data-chrome="bevel"] .btn:hover{transform:none}
 [data-chrome="bevel"] .btn:active{border-color:var(--bv-dk) var(--bv-lt) var(--bv-lt) var(--bv-dk);transform:none}
 [data-chrome="bevel"] .tile:hover{transform:none;box-shadow:none}
+[data-chrome="paper"] .px,[data-chrome="paper"] .chip,[data-chrome="paper"] .tags span,[data-chrome="paper"] .avatar,[data-chrome="paper"] .video,[data-chrome="paper"] .car .nav button,[data-chrome="paper"] .search{
+  border-width:1px;border-style:solid;border-color:var(--ink);box-shadow:0 3px 10px rgba(20,14,4,.28)
+}
+[data-chrome="paper"] .btn{border:2px dashed var(--a1);background:transparent;color:var(--a1);box-shadow:none;font-family:var(--f-type);text-transform:uppercase;letter-spacing:.06em;transform:rotate(-1.2deg);border-radius:2px}
+[data-chrome="paper"] .btn.c2{border-color:var(--a2);color:var(--a2)}
+[data-chrome="paper"] .btn.c3{border-color:var(--on-a3);color:var(--ink);background:rgba(199,165,74,.18)}
+[data-chrome="paper"] .btn.c4{border-color:var(--a4);color:var(--a4)}
+[data-chrome="paper"] .btn.plain{border-style:solid;color:var(--ink);border-color:var(--ink)}
+[data-chrome="paper"] .btn:hover{transform:rotate(0deg) scale(1.03);background:rgba(34,28,20,.06)}
+[data-chrome="paper"] .btn:active{transform:rotate(-2deg) scale(.95);background:rgba(34,28,20,.12)}
+[data-chrome="paper"] figure img{border-width:1px;border-style:solid;box-shadow:0 5px 14px rgba(20,14,4,.32)}
+[data-chrome="paper"] .tile{border-width:1px;border-style:solid;box-shadow:0 4px 10px rgba(20,14,4,.25)}
+[data-chrome="paper"] .tile:hover{box-shadow:0 8px 18px rgba(20,14,4,.32)}
+[data-chrome="paper"] .pn a{border-width:1px;border-style:solid;box-shadow:0 3px 8px rgba(20,14,4,.22)}
+[data-chrome="paper"] .callout{border-width:1px;border-style:solid;box-shadow:0 3px 8px rgba(20,14,4,.2)}
 [data-scan="1"] body{position:relative}
 [data-scan="1"] body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:999;background:repeating-linear-gradient(0deg,rgba(0,0,0,.16) 0 1px,transparent 1px 3px);mix-blend-mode:multiply}
 [data-scan="1"] .px-title{text-shadow:0 0 6px currentColor}
@@ -102,6 +125,15 @@ html[data-theme="arcade"] body{
   background-image:linear-gradient(rgba(41,227,242,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(255,62,165,.06) 1px,transparent 1px);
   background-size:32px 32px;
 }
+html[data-theme="diario90"] body{
+  background-color:var(--bg);
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),
+    radial-gradient(ellipse at 18% 12%,rgba(255,255,255,.30),transparent 55%),
+    radial-gradient(ellipse at 85% 92%,rgba(0,0,0,.10),transparent 55%);
+  background-blend-mode:multiply,normal,normal;
+}
+html[data-theme="diario90"] body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:998;background:radial-gradient(ellipse at center,transparent 55%,rgba(20,14,4,.20) 100%)}
 a{color:inherit}
 button{font:inherit;color:inherit;cursor:pointer;background:none;border:0;padding:0}
 :focus-visible{outline:3px solid var(--a3);outline-offset:2px}
@@ -224,6 +256,69 @@ html[data-theme="consola"] .foot,html[data-theme="gameboy"] .foot{color:var(--in
 #lb button{position:absolute;color:#fff;font:400 16px var(--f-px);padding:14px;background:rgba(255,255,255,.08);border:2px solid #fff}
 #lb .x{top:14px;right:14px}#lb .p{left:10px;top:50%}#lb .n{right:10px;top:50%}
 
+/* ===== Diario 90 · efectos ===== */
+@keyframes d90-drop{from{opacity:0;transform:translateY(-14px) rotate(-.4deg)}to{opacity:1;transform:translateY(0) rotate(0deg)}}
+@keyframes d90-clip{from{opacity:0;transform:translateY(16px) rotate(var(--r,0deg)) scale(.95)}to{opacity:1;transform:translateY(0) rotate(var(--r,0deg)) scale(1)}}
+@keyframes d90-develop{from{opacity:0;filter:grayscale(1) sepia(.22) contrast(1.5) brightness(.55) blur(3px)}to{opacity:1;filter:grayscale(1) sepia(.22) contrast(1.12) brightness(1) blur(0)}}
+@keyframes d90-flicker{0%,100%{opacity:.9}50%{opacity:1}}
+html[data-theme="diario90"] .wrap{max-width:900px}
+html[data-theme="diario90"] .px-title{font-weight:900}
+html[data-theme="diario90"] .kicker{display:block;font-family:var(--f-type);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);border-top:1px solid var(--ink2);border-bottom:1px solid var(--ink2);padding:5px 0;margin:12px auto 0;max-width:560px;text-align:center;animation:d90-flicker 5s ease-in-out infinite}
+html[data-theme="diario90"] .profile{display:block;text-align:center;border:0;border-top:7px double var(--ink);border-bottom:2px solid var(--ink);box-shadow:none;background:var(--panel);padding:24px 16px 22px;animation:d90-drop .6s cubic-bezier(.2,.8,.2,1) both}
+html[data-theme="diario90"] .profile .head{display:flex;flex-direction:column;align-items:center;gap:10px}
+html[data-theme="diario90"] .avatar{width:76px;height:76px;border-radius:50%;box-shadow:none}
+html[data-theme="diario90"] .profile h1.px-title{font-size:clamp(30px,7.2vw,56px);text-transform:uppercase;letter-spacing:.015em}
+html[data-theme="diario90"] .profile .sub{font-family:var(--f-body);font-style:italic;font-size:19px;color:var(--ink2);margin-top:2px}
+html[data-theme="diario90"] .stats{justify-content:center;font-family:var(--f-type)}
+html[data-theme="diario90"] .stats b{font-family:var(--f-type);font-size:17px}
+html[data-theme="diario90"] .bio{text-align:left;font-size:20px;margin:14px auto 0;max-width:64ch}
+html[data-theme="diario90"] .links{justify-content:center;margin-top:14px}
+html[data-theme="diario90"] .tools{font-family:var(--f-type);border-top:1px solid var(--ink2);border-bottom:1px solid var(--ink2);padding:10px 0}
+html[data-theme="diario90"] .chip{border-radius:0;font-family:var(--f-type);font-size:16px}
+html[data-theme="diario90"] .search{font-family:var(--f-body);font-style:italic;border-radius:0}
+html[data-theme="diario90"] .grid{gap:18px 16px}
+html[data-theme="diario90"] .tile{background:var(--panel);border-radius:0;animation:d90-clip .55s cubic-bezier(.2,.8,.2,1) both}
+html[data-theme="diario90"] .tile:nth-child(5n+1){--r:-1.3deg}
+html[data-theme="diario90"] .tile:nth-child(5n+2){--r:.8deg}
+html[data-theme="diario90"] .tile:nth-child(5n+3){--r:-.5deg}
+html[data-theme="diario90"] .tile:nth-child(5n+4){--r:1.1deg}
+html[data-theme="diario90"] .tile:nth-child(5n+5){--r:-.8deg}
+html[data-theme="diario90"] .tile:nth-child(1){animation-delay:.02s}html[data-theme="diario90"] .tile:nth-child(2){animation-delay:.06s}
+html[data-theme="diario90"] .tile:nth-child(3){animation-delay:.10s}html[data-theme="diario90"] .tile:nth-child(4){animation-delay:.14s}
+html[data-theme="diario90"] .tile:nth-child(5){animation-delay:.18s}html[data-theme="diario90"] .tile:nth-child(6){animation-delay:.22s}
+html[data-theme="diario90"] .tile:nth-child(n+7){animation-delay:.26s}
+html[data-theme="diario90"] .tile img{filter:grayscale(1) sepia(.22) contrast(1.12)}
+html[data-theme="diario90"] .tile::after{content:"";position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(circle,rgba(0,0,0,.55) .5px,transparent .5px);background-size:3px 3px;mix-blend-mode:multiply;opacity:.3}
+html[data-theme="diario90"] .tile .cap{font-family:var(--f-type);background:var(--panel);color:var(--ink);border-top-color:var(--ink);font-size:16px}
+html[data-theme="diario90"] .tile .ph{font-family:var(--f-px)}
+html[data-theme="diario90"] .empty{font-family:var(--f-body);animation:d90-drop .6s both}
+html[data-theme="diario90"] .back .btn{transform:rotate(-1.4deg)}
+html[data-theme="diario90"] .post{background:var(--panel);animation:d90-drop .5s cubic-bezier(.2,.8,.2,1) both}
+html[data-theme="diario90"] .post-head h1{font-size:clamp(27px,5.6vw,46px);line-height:1.15;border-bottom:4px double var(--ink);padding-bottom:10px;text-transform:none}
+html[data-theme="diario90"] .meta{font-family:var(--f-type);text-transform:uppercase;letter-spacing:.05em;font-size:15px}
+html[data-theme="diario90"] .tags span{border-radius:0;font-family:var(--f-type)}
+html[data-theme="diario90"] .blocks{max-width:640px}
+html[data-theme="diario90"] .blocks p{font-family:var(--f-body);font-size:21px;line-height:1.6;text-align:justify;hyphens:auto;text-indent:1.4em}
+html[data-theme="diario90"] .blocks>div:first-of-type p:first-of-type{text-indent:0}
+html[data-theme="diario90"] .blocks>div:first-of-type p:first-of-type::first-letter{font-family:var(--f-px);font-size:3.1em;font-weight:900;float:left;line-height:.82;padding:.04em .08em 0 0}
+html[data-theme="diario90"] .blocks h2{font-family:var(--f-px);font-weight:900;text-transform:uppercase;letter-spacing:.03em;border-top:1px solid var(--ink);border-bottom:3px solid var(--ink);padding:8px 0 6px}
+html[data-theme="diario90"] figure{position:relative}
+html[data-theme="diario90"] figure::before{content:"";position:absolute;top:-11px;left:50%;transform:translateX(-50%) rotate(-3deg);width:74px;height:22px;background:rgba(230,220,190,.6);border:1px solid rgba(0,0,0,.12);box-shadow:0 2px 4px rgba(0,0,0,.18);z-index:2}
+html[data-theme="diario90"] figure img{filter:grayscale(1) sepia(.22) contrast(1.12);animation:d90-develop .9s ease both}
+html[data-theme="diario90"] figcaption{font-family:var(--f-type);font-style:italic;font-size:16px;text-align:center}
+html[data-theme="diario90"] .callout{background:var(--panel);border-left:6px solid var(--a1)!important;color:var(--ink);font-style:italic;font-family:var(--f-body)}
+html[data-theme="diario90"] .callout::before{content:"☞";font-family:Georgia,serif;color:var(--a1);font-size:24px;top:10px}
+html[data-theme="diario90"] .pn a{background:var(--panel);border-radius:0}
+html[data-theme="diario90"] .pn a small{font-family:var(--f-type)}
+html[data-theme="diario90"] .pn a:hover{background:var(--a3);color:var(--on-a3)}
+html[data-theme="diario90"] .foot{font-family:var(--f-type);letter-spacing:.03em;color:var(--ink2)}
+html[data-theme="diario90"] #lb img{filter:grayscale(1) sepia(.16) contrast(1.14)}
+@media (min-width:760px){
+  html[data-theme="diario90"] .blocks{column-count:2;column-gap:36px;column-rule:1px solid var(--ink2);max-width:840px}
+  html[data-theme="diario90"] .blocks figure,html[data-theme="diario90"] .blocks .callout,html[data-theme="diario90"] .blocks h2,
+  html[data-theme="diario90"] .blocks .video,html[data-theme="diario90"] .blocks .car{-webkit-column-span:all;column-span:all;margin-bottom:14px}
+}
+
 @media (max-width:620px){
   body{font-size:21px}
   .wrap{padding:14px 12px 34px}
@@ -247,7 +342,7 @@ html[data-theme="consola"] .foot,html[data-theme="gameboy"] .foot{color:var(--in
 (function(){
 'use strict';
 var P=window.__BLOG_PREVIEW__||null;
-var site={title:'Blog',subtitle:'',author:'',bio:'',theme:'consola',avatar:'',links:[]};
+var site={title:'Blog',subtitle:'',author:'',bio:'',theme:'diario90',avatar:'',links:[]};
 var posts=[];
 var state={tag:'',q:''};
 
@@ -297,10 +392,10 @@ function allTags(){var m={};posts.forEach(function(p){(p.tags||[]).forEach(funct
 
 /* ---------- vistas ---------- */
 var app=document.getElementById('app');
-var THEME_CHROME={consola:'pixel',gameboy:'pixel',arcade:'pixel',nanduti:'pixel',norton:'term',msdos:'term',fosforo:'term',ambar:'term',win31:'bevel',hotdog:'bevel'};
+var THEME_CHROME={consola:'pixel',gameboy:'pixel',arcade:'pixel',nanduti:'pixel',norton:'term',msdos:'term',fosforo:'term',ambar:'term',win31:'bevel',hotdog:'bevel',diario90:'paper'};
 var THEME_SCAN={fosforo:1,ambar:1};
 function applySite(){
-  var th = THEME_CHROME.hasOwnProperty(site.theme) ? site.theme : 'consola';
+  var th = THEME_CHROME.hasOwnProperty(site.theme) ? site.theme : 'diario90';
   var el = document.documentElement;
   el.setAttribute('data-theme', th);
   el.setAttribute('data-chrome', THEME_CHROME[th]);
@@ -318,9 +413,11 @@ function homeHTML(){
   var av=site.avatar&&imgSrc(site.avatar)?'<img src="'+esc(imgSrc(site.avatar))+'" alt="">':pixelSvg(HEART,'var(--a2)');
   var links=(site.links||[]).filter(function(l){return safeUrl(l.url);}).map(function(l){
     return '<a class="btn" href="'+esc(safeUrl(l.url))+'" target="_blank" rel="noopener noreferrer">'+esc(l.label||l.url)+'</a>';}).join('');
+  var edition=new Date().toLocaleDateString('es-AR',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
   var h='<header class="profile px scan"><div class="head"><div class="avatar">'+av+'</div>'+
     '<div class="head-txt"><h1 class="px-title">'+esc(site.title)+'</h1>'+(site.subtitle?'<p class="sub">'+esc(site.subtitle)+'</p>':'')+
     '<div class="stats"><div><b>'+list.length+'</b><span>entradas</span></div><div><b>'+photos+'</b><span>fotos</span></div><div><b>'+tags.length+'</b><span>temas</span></div></div></div></div>'+
+    '<p class="kicker">Edición digital · '+esc(edition)+'</p>'+
     (site.bio?'<p class="bio">'+esc(site.bio)+'</p>':'')+(links?'<div class="links">'+links+'</div>':'')+'</header>';
   if(!list.length){
     return h+'<div class="empty px"><h2 class="px-title" style="font-size:14px">SIN ENTRADAS</h2><p>Todavía no hay nada publicado. ¡Volvé pronto!</p></div>'+footHTML();
