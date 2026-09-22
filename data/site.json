@@ -4,7 +4,7 @@
   "subtitle": "Tecnología, juegos, aprendizaje",
   "author": "Didáctica aumentada - Codeclub Ñanduti",
   "bio": "\"Blog Code-club-Ñanduti - Didáctica aumentada - Trabajamos en desarrollos colaborativos y cooperativos, somos un equipo de Entusiastas de la educación informática, y de las innovaciones en Enseñanza-Educación. \"",
-  "theme": "msdos",
+  "theme": "win31",
   "links": [
     {
       "label": "didactica_aumentada3.0",
@@ -16,6 +16,6 @@
     }
   ],
   "templateVersion": 1,
-  "updated": 1790047488820,
+  "updated": 1790047503028,
   "avatar": "images/site/avatar-muc2pg7w.jpg"
 }
