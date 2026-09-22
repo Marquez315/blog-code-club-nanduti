@@ -2,6 +2,30 @@
   "version": 1,
   "posts": [
     {
+      "id": "2024-09-12-9-edicion-institucional-de-la-semana-nacional-de-l",
+      "title": "9° Edición Institucional de la Semana Nacional de las Ciencias y Tecnologías",
+      "date": "2024-09-12",
+      "tags": [
+        "semana de la ciencia",
+        "exposiciones",
+        "fundación ñanduti"
+      ],
+      "cover": "",
+      "summary": "9° Edición Institucional de la Semana Nacional de las Ciencias y Tecnologías",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "9° Edición Institucional de la Semana Nacional de las Ciencias y Tecnologías"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=F8l2lDTrVOg&t=1743s"
+        }
+      ],
+      "created": 1790049381379,
+      "updated": 1790049381379
+    },
+    {
       "id": "2024-07-13-expo-carreras-santo-tome-ciudad-universitaria-segu",
       "title": "Expo Carreras Santo Tomé Ciudad Universitaria. Segunda Edición",
       "date": "2024-07-13",
