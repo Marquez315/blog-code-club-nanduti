@@ -2,6 +2,42 @@
   "version": 1,
   "posts": [
     {
+      "id": "2025-05-20-taller-de-ajedrez-minecraft",
+      "title": "Taller  de ajedrez ♟️#minecraft",
+      "date": "2025-05-20",
+      "tags": [
+        "capacitación",
+        "Taller de ajedrez",
+        "minecraft",
+        "fundación ñanduti",
+        "impresión-3d"
+      ],
+      "cover": "images/2025-05-20-taller-de-ajedrez-minecraft/muc6nz9z-1.jpg",
+      "summary": "Taller de ajedrez ♟️#minecraft #biblioteca #bibliotecapopularvirasoro #Pensamientocomputacional #roboticavirasoro #programacionvirasoro #enseñanza #educacion #a",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Taller  de ajedrez ♟️#minecraft\n#biblioteca\n#bibliotecapopularvirasoro\n#Pensamientocomputacional\n#roboticavirasoro  #programacionvirasoro #enseñanza  #educacion  #aprende #docentes  #secundaria  #conocimiento #steameducation  #tecnologia \n#Virasoro  #virasorociudad \n#corrientesvirasoro #Virasorocorrientes  #compartítuexperiencia #ministeriodeeducacion\n#aprendizajecooperativo\n#seguimoseducando #educacionsecundaria  #planintegraldeeducacióndigital #virasorovirtual \n#santotomecorrientes #educacioncorrientes  #santotoméhaciaadelante\n#ajedrez #ajedrezparatodos"
+        },
+        {
+          "type": "photos",
+          "images": [
+            {
+              "src": "images/2025-05-20-taller-de-ajedrez-minecraft/muc6nz9z-1.jpg",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "type": "link",
+          "label": "Taller  de ajedrez",
+          "url": "https://www.instagram.com/didactica_aumentada3.0/p/DJ5kqVfNli0/?img_index=1"
+        }
+      ],
+      "created": 1790051872355,
+      "updated": 1790051872355
+    },
+    {
       "id": "2025-05-21-curso-pensamiento-computacional",
       "title": "Curso \"Pensamiento computacional\"",
       "date": "2025-05-21",
