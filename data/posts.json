@@ -237,14 +237,6 @@
           "text": "9° Edición Institucional de la Semana Nacional de las Ciencias y Tecnologías"
         },
         {
-          "type": "video",
-          "url": "https://www.youtube.com/watch?v=F8l2lDTrVOg&t=1743s"
-        },
-        {
-          "type": "video",
-          "url": "https://www.youtube.com/watch?v=6JU4u0s7ugA"
-        },
-        {
           "type": "photos",
           "images": [
             {
@@ -252,10 +244,18 @@
               "caption": ""
             }
           ]
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=F8l2lDTrVOg&t=1743s"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=6JU4u0s7ugA"
         }
       ],
       "created": 1790049381379,
-      "updated": 1790050614206
+      "updated": 1790050985360
     },
     {
       "id": "2024-07-13-expo-carreras-santo-tome-ciudad-universitaria-segu",
