@@ -5,8 +5,17 @@
   "author": "Didáctica aumentada - virasoro",
   "bio": "\"Blog Code-club-Ñanduti - Didáctica aumentada - Trabajamos en desarrollos colaborativos y cooperativos, somos un equipo de Entusiastas de la educación informática, y de las innovaciones en Enseñanza-Educación. \"",
   "theme": "arcade",
-  "links": [],
+  "links": [
+    {
+      "label": "didactica_aumentada3.0",
+      "url": "https://www.instagram.com/didactica_aumentada3.0/#"
+    },
+    {
+      "label": "codeclubñanduti",
+      "url": "https://www.instagram.com/codeclubnanduti/#"
+    }
+  ],
   "templateVersion": 1,
-  "updated": 1790045711580,
+  "updated": 1790045794891,
   "avatar": "images/site/avatar-muc2pg7w.jpg"
 }
