@@ -2,6 +2,41 @@
   "version": 1,
   "posts": [
     {
+      "id": "2026-07-05-4-edicion-expo-carreras-santo-tome-ciudad-universi",
+      "title": "4° EDICIÓN EXPO CARRERAS SANTO TOME CIUDAD UNIVERSITARIA",
+      "date": "2026-07-05",
+      "tags": [
+        "Expo Carreras Santo Tomé",
+        "La Sargento Streaming",
+        "Proyecta y Construye",
+        "Streaming",
+        "fundación ñanduti"
+      ],
+      "cover": "images/2026-07-05-4-edicion-expo-carreras-santo-tome-ciudad-universi/muc62uup-1.jpg",
+      "summary": "Colegio Secundario de Adolescentes y Adultos Sargento Juan Bautista Cabral. 4° Edición de La EXPO CARRERAS SANTO TOMÉ CIUDAD UNIVERSITARIA La vivis por La S@rge",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Colegio Secundario de Adolescentes y Adultos Sargento Juan Bautista Cabral.\n4° Edición de La EXPO CARRERAS SANTO TOMÉ CIUDAD UNIVERSITARIA \nLa vivis por La S@rgento Streaming: \"Tu futuro te espera\""
+        },
+        {
+          "type": "photos",
+          "images": [
+            {
+              "src": "images/2026-07-05-4-edicion-expo-carreras-santo-tome-ciudad-universi/muc62uup-1.jpg",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=anQe23bLzfg&t=1901s"
+        }
+      ],
+      "created": 1790050887180,
+      "updated": 1790050887180
+    },
+    {
       "id": "2025-11-10-la-s-rgento-streaming",
       "title": "La S@rgento Streaming",
       "date": "2025-11-10",
