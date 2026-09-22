@@ -44,7 +44,7 @@
         "Proyecta y Construye",
         "fundación ñanduti"
       ],
-      "cover": "",
+      "cover": "images/2025-10-30-la-sargento-streaming/muc5p09d-1.jpg",
       "summary": "Colegio Secundario de Adolescentes y Adultos Sargento Juan Bautista Cabral. 4° Edición de Tras las Huellas de Nuestros Pueblos Originarios 2025 Compartimos esta",
       "blocks": [
         {
@@ -54,10 +54,19 @@
         {
           "type": "video",
           "url": "https://www.youtube.com/watch?v=j0611VwF47Q"
+        },
+        {
+          "type": "photos",
+          "images": [
+            {
+              "src": "images/2025-10-30-la-sargento-streaming/muc5p09d-1.jpg",
+              "caption": ""
+            }
+          ]
         }
       ],
       "created": 1790049881506,
-      "updated": 1790049881506
+      "updated": 1790050240942
     },
     {
       "id": "2025-09-25-10-edicion-de-la-semana-de-las-ciencias-y-tecnolog",
