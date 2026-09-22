@@ -231,7 +231,7 @@
         "Expo Carreras Santo Tomé",
         "exposiciones"
       ],
-      "cover": "",
+      "cover": "images/2024-07-13-expo-carreras-santo-tome-ciudad-universitaria-segu/muc5z41c-1.jpg",
       "summary": "Segunda Edición Expo Carreras Santo Tomé Ciudad Universitaria.",
       "blocks": [
         {
@@ -241,10 +241,19 @@
         {
           "type": "video",
           "url": "https://www.youtube.com/watch?v=-L9yBB7vWw4"
+        },
+        {
+          "type": "photos",
+          "images": [
+            {
+              "src": "images/2024-07-13-expo-carreras-santo-tome-ciudad-universitaria-segu/muc5z41c-1.jpg",
+              "caption": ""
+            }
+          ]
         }
       ],
       "created": 1790049239949,
-      "updated": 1790049239949
+      "updated": 1790050712168
     },
     {
       "id": "2025-11-03-centro-de-formacion-profesional-pablo-navajas-arta",
