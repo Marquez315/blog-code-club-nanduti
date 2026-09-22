@@ -274,10 +274,6 @@
           "text": "Segunda Edición Expo Carreras Santo Tomé Ciudad Universitaria."
         },
         {
-          "type": "video",
-          "url": "https://www.youtube.com/watch?v=-L9yBB7vWw4"
-        },
-        {
           "type": "photos",
           "images": [
             {
@@ -285,10 +281,14 @@
               "caption": ""
             }
           ]
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=-L9yBB7vWw4"
         }
       ],
       "created": 1790049239949,
-      "updated": 1790050712168
+      "updated": 1790050971216
     },
     {
       "id": "2025-11-03-centro-de-formacion-profesional-pablo-navajas-arta",
