@@ -30,11 +30,63 @@ html[data-theme="nanduti"]{
   --a1:#E63946; --a2:#2A9D8F; --a3:#F4B942; --a4:#8E5CF2; --a5:#0F4C55; --on-a:#FFFFFF; --on-a3:#12313A;
   --screen:#12313A; --screen-ink:#FFFFFF;
 }
+html[data-theme="norton"]{
+  --bg:#0000AA; --panel:#0000AA; --ink:#FFFFFF; --ink2:#55FFFF;
+  --a1:#FFFF55; --a2:#FF5555; --a3:#55FFFF; --a4:#55FF55; --a5:#FFFFFF; --on-a:#0000AA; --on-a3:#0000AA;
+  --screen:#000000; --screen-ink:#55FF55;
+  --f-px:'VT323','Courier New',monospace; --f-body:'VT323','Courier New',monospace;
+}
+html[data-theme="msdos"]{
+  --bg:#0000AA; --panel:#AAAAAA; --ink:#000000; --ink2:#444444;
+  --a1:#0000AA; --a2:#AA0000; --a3:#AAAA00; --a4:#00AA00; --a5:#00AAAA; --on-a:#FFFFFF; --on-a3:#FFFFFF;
+  --screen:#0000AA; --screen-ink:#FFFFFF;
+  --f-px:'VT323','Courier New',monospace; --f-body:'VT323','Courier New',monospace;
+}
+html[data-theme="fosforo"]{
+  --bg:#001100; --panel:#001A00; --ink:#33FF33; --ink2:#1FAA1F;
+  --a1:#33FF33; --a2:#0FCB0F; --a3:#7CFF7C; --a4:#22CC22; --a5:#55FF55; --on-a:#001100; --on-a3:#001100;
+  --screen:#000000; --screen-ink:#33FF33;
+  --f-px:'VT323','Courier New',monospace; --f-body:'VT323','Courier New',monospace;
+}
+html[data-theme="ambar"]{
+  --bg:#150900; --panel:#1F0D00; --ink:#FFB000; --ink2:#CC8800;
+  --a1:#FFB000; --a2:#FF8800; --a3:#FFD060; --a4:#E0A000; --a5:#FFC040; --on-a:#150900; --on-a3:#150900;
+  --screen:#000000; --screen-ink:#FFB000;
+  --f-px:'VT323','Courier New',monospace; --f-body:'VT323','Courier New',monospace;
+}
+html[data-theme="win31"]{
+  --bg:#008080; --panel:#C0C0C0; --ink:#000000; --ink2:#444444;
+  --a1:#000080; --a2:#800000; --a3:#808000; --a4:#008000; --a5:#000080; --on-a:#FFFFFF; --on-a3:#FFFFFF;
+  --screen:#000080; --screen-ink:#FFFFFF; --bv-lt:#FFFFFF; --bv-dk:#404040;
+  --f-px:Tahoma,'Segoe UI',Arial,sans-serif; --f-body:Tahoma,'Segoe UI',Arial,sans-serif;
+}
+html[data-theme="hotdog"]{
+  --bg:#FF0000; --panel:#FFFF00; --ink:#000000; --ink2:#5C3B00;
+  --a1:#FF0000; --a2:#000000; --a3:#FFFFFF; --a4:#FFA500; --a5:#FF0000; --on-a:#FFFFFF; --on-a3:#000000;
+  --screen:#000000; --screen-ink:#FFFF00; --bv-lt:#FFFFFF; --bv-dk:#800000;
+  --f-px:Tahoma,'Segoe UI',Arial,sans-serif; --f-body:Tahoma,'Segoe UI',Arial,sans-serif;
+}
 :root{
   --f-px:'Press Start 2P','Courier New',monospace;
   --f-body:'VT323','Courier New',ui-monospace,monospace;
   --line:var(--ink);
 }
+/* ===== Chasis por época (bordes/relieve) ===== */
+[data-chrome="term"] .px,[data-chrome="term"] .btn,[data-chrome="term"] .chip,[data-chrome="term"] .tags span,[data-chrome="term"] figure img,[data-chrome="term"] .tile,[data-chrome="term"] .avatar,[data-chrome="term"] .callout,[data-chrome="term"] .video,[data-chrome="term"] .car .nav button,[data-chrome="term"] .pn a,[data-chrome="term"] .search{
+  border-width:4px;border-style:double;box-shadow:none
+}
+[data-chrome="term"] .btn:hover{transform:none;box-shadow:none;filter:brightness(1.15)}
+[data-chrome="term"] .btn:active{transform:none;box-shadow:none;filter:brightness(.85)}
+[data-chrome="term"] .tile:hover{transform:none;box-shadow:none}
+[data-chrome="bevel"] .px,[data-chrome="bevel"] .btn,[data-chrome="bevel"] .chip,[data-chrome="bevel"] .tags span,[data-chrome="bevel"] figure img,[data-chrome="bevel"] .tile,[data-chrome="bevel"] .avatar,[data-chrome="bevel"] .callout,[data-chrome="bevel"] .video,[data-chrome="bevel"] .car .nav button,[data-chrome="bevel"] .pn a,[data-chrome="bevel"] .search{
+  border-width:2px;border-style:solid;border-color:var(--bv-lt) var(--bv-dk) var(--bv-dk) var(--bv-lt);box-shadow:none
+}
+[data-chrome="bevel"] .btn:hover{transform:none}
+[data-chrome="bevel"] .btn:active{border-color:var(--bv-dk) var(--bv-lt) var(--bv-lt) var(--bv-dk);transform:none}
+[data-chrome="bevel"] .tile:hover{transform:none;box-shadow:none}
+[data-scan="1"] body{position:relative}
+[data-scan="1"] body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:999;background:repeating-linear-gradient(0deg,rgba(0,0,0,.16) 0 1px,transparent 1px 3px);mix-blend-mode:multiply}
+[data-scan="1"] .px-title{text-shadow:0 0 6px currentColor}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:400 22px/1.3 var(--f-body);min-height:100vh;
@@ -159,6 +211,7 @@ html[data-theme="gameboy"] .callout{background:var(--screen);color:var(--screen-
 .foot{margin-top:34px;text-align:center;color:var(--screen-ink);font-size:20px;opacity:.85}
 html[data-theme="consola"] .foot,html[data-theme="gameboy"] .foot{color:var(--ink2)}
 .foot a{color:inherit}
+.foot .credit{display:inline-block;margin-top:4px;font-size:18px;opacity:.8}
 .loading{padding:60px 0;text-align:center;font:400 12px var(--f-px);line-height:2}
 .blink{animation:blink 1s steps(2) infinite}
 @keyframes blink{50%{opacity:0}}
@@ -244,8 +297,14 @@ function allTags(){var m={};posts.forEach(function(p){(p.tags||[]).forEach(funct
 
 /* ---------- vistas ---------- */
 var app=document.getElementById('app');
+var THEME_CHROME={consola:'pixel',gameboy:'pixel',arcade:'pixel',nanduti:'pixel',norton:'term',msdos:'term',fosforo:'term',ambar:'term',win31:'bevel',hotdog:'bevel'};
+var THEME_SCAN={fosforo:1,ambar:1};
 function applySite(){
-  document.documentElement.setAttribute('data-theme',/^(consola|gameboy|arcade|nanduti)$/.test(site.theme)?site.theme:'consola');
+  var th = THEME_CHROME.hasOwnProperty(site.theme) ? site.theme : 'consola';
+  var el = document.documentElement;
+  el.setAttribute('data-theme', th);
+  el.setAttribute('data-chrome', THEME_CHROME[th]);
+  if (THEME_SCAN[th]) el.setAttribute('data-scan','1'); else el.removeAttribute('data-scan');
   document.title=site.title||'Blog';
   var fav=document.querySelector('link[rel=icon]');
   if(!fav){fav=document.createElement('link');fav.rel='icon';document.head.appendChild(fav);}
@@ -289,7 +348,8 @@ function gridHTML(){
   }).join('');
 }
 function footHTML(){
-  return '<footer class="foot">'+esc(site.author?('© '+site.author+' · '):'')+'Hecho con Blog Retro</footer>';
+  return '<footer class="foot">'+esc(site.author?('© '+site.author+' · '):'')+'Hecho con Blog Retro'
+    +'<br><span class="credit">inspirado en <a href="https://www.instagram.com/didactica_aumentada3.0/" target="_blank" rel="noopener noreferrer">@didactica_aumentada3.0</a> y <a href="https://www.instagram.com/codeclubnanduti/" target="_blank" rel="noopener noreferrer">@codeclubnanduti</a></span></footer>';
 }
 
 function blockHTML(b,pi){
