@@ -2,6 +2,43 @@
   "version": 1,
   "posts": [
     {
+      "id": "2024-08-17-feria-del-libro-2024-gdor-virasoro",
+      "title": "🎒👨🏽‍🏫Feria del libro 📖 2024 Gdor Virasoro",
+      "date": "2024-08-17",
+      "tags": [
+        "Feria del libro",
+        "robótica",
+        "programación",
+        "Proyecta y Construye",
+        "capacitación",
+        "exposiciones"
+      ],
+      "cover": "images/2024-08-17-feria-del-libro-2024-gdor-virasoro/muc7mekd-1.jpg",
+      "summary": "🎒👨🏽‍🏫Feria del libro 📖 2024 Gdor Virasoro #roboticavirasoro #programacionvirasoro #enseñanza #formación #educacion #aprende #docentes #culturageneral #gami",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "🎒👨🏽‍🏫Feria del libro 📖 2024 Gdor Virasoro \n\n#roboticavirasoro  #programacionvirasoro #enseñanza #formación #educacion  #aprende #docentes  #culturageneral #gamificación  #secundaria  #primaria  #conocimiento\n#Virasoro  #virasorociudad \n#corrientesvirasoro #Virasorocorrientes  #compartítuexperiencia #ministeriodeeducacion\n  #aprendizajecooperativo\n #seguimoseducando #educacionsecundaria  #planintegraldeeducacióndigital #virasorovirtual #bibliotecapopular\n  #santotomecorrientes #educacioncorrientes #feriaeducativa  #elterritorio #feriadellibrovirasoro #feriadellibro"
+        },
+        {
+          "type": "photos",
+          "images": [
+            {
+              "src": "images/2024-08-17-feria-del-libro-2024-gdor-virasoro/muc7mekd-1.jpg",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "type": "link",
+          "label": "🎒👨🏽‍🏫Feria del libro 📖 2024 Gdor Vi",
+          "url": "https://www.instagram.com/didactica_aumentada3.0/p/C-w3rWPOZ_2/"
+        }
+      ],
+      "created": 1790053501124,
+      "updated": 1790053501124
+    },
+    {
       "id": "2024-09-15-semana-nacional-de-la-ciencias-y-la-tecnologias",
       "title": "🤖Semana Nacional de la Ciencias y la Tecnologías",
       "date": "2024-09-15",
