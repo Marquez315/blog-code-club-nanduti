@@ -1,4 +1,44 @@
 {
   "version": 1,
-  "posts": []
+  "posts": [
+    {
+      "id": "2026-09-21-semana-de-la-ciencia-colegio-secundario-de-adolesc",
+      "title": "Semana de la ciencia - Colegio Secundario de Adolescentes y Adultos Sargento J. B. Cabral, Santo Tomé Corrientes.",
+      "date": "2026-09-21",
+      "tags": [
+        "semana de la ciencia",
+        "robótica",
+        "exposiciones",
+        "juegos",
+        "programación"
+      ],
+      "cover": "images/2026-09-21-semana-de-la-ciencia-colegio-secundario-de-adolesc/muc2lsb1-1.jpg",
+      "summary": "**Semana de la ciencia** - Colegio Secundario de Adolescentes y Adultos Sargento J. B. Cabral, Santo Tomé Corrientes. #Sncyt2025colegiojbc #Pensamientocomputaci",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "**Semana de la ciencia** - Colegio Secundario de Adolescentes y Adultos Sargento J. B. Cabral, Santo Tomé Corrientes.\n#Sncyt2025colegiojbc #Pensamientocomputacional\n#roboticavirasoro #programacionvirasoro #enseñanza #educacion #aprende #docentes #secundaria #conocimiento #steameducation #tecnologia\n#Virasoro #virasorociudad\n#corrientesvirasoro #Virasorocorrientes #compartítuexperiencia #ministeriodeeducacion\n#aprendizajecooperativo\n#seguimoseducando #educacionsecundaria #planintegraldeeducacióndigital #virasorovirtual\n#santotomecorrientes #educacioncorrientes #santotoméhaciaadelante"
+        },
+        {
+          "type": "photos",
+          "images": [
+            {
+              "src": "images/2026-09-21-semana-de-la-ciencia-colegio-secundario-de-adolesc/muc2lsb1-1.jpg",
+              "caption": ""
+            },
+            {
+              "src": "images/2026-09-21-semana-de-la-ciencia-colegio-secundario-de-adolesc/muc2ltyg-2.jpg",
+              "caption": ""
+            },
+            {
+              "src": "images/2026-09-21-semana-de-la-ciencia-colegio-secundario-de-adolesc/muc2lvb5-3.jpg",
+              "caption": ""
+            }
+          ]
+        }
+      ],
+      "created": 1790045055560,
+      "updated": 1790045055560
+    }
+  ]
 }
