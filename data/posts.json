@@ -2,6 +2,40 @@
   "version": 1,
   "posts": [
     {
+      "id": "2024-09-30-programa-de-radio-parte-3-sembrando-cultura-cultur",
+      "title": "📻Programa de radio parte -3 \"Sembrando Cultura\", Cultura y Robótica 🤖🎙️",
+      "date": "2024-09-30",
+      "tags": [
+        "Proyecta y Construye",
+        "Programa de radio",
+        "Radio Sembrando Cultura"
+      ],
+      "cover": "images/2024-09-30-programa-de-radio-parte-3-sembrando-cultura-cultur/muc76m3a-1.jpg",
+      "summary": "📻Programa de radio parte -3 \"Sembrando Cultura\", Cultura y Robótica 🤖🎙️#radio #sembrandocultura #radioonline #roboticavirasoro #programacionvirasoro #enseñan",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "📻Programa de radio parte -3 \"Sembrando Cultura\", Cultura y Robótica 🤖🎙️#radio #sembrandocultura #radioonline \n\n#roboticavirasoro  #programacionvirasoro #enseñanza #formación #educacion  #aprende #docentes  #culturageneral #gamificación  #secundaria  #primaria  #conocimiento #steameducation  #tecnologia #culturamaker\n#Virasoro  #virasorociudad \n#corrientesvirasoro #Virasorocorrientes  #compartítuexperiencia #ministeriodeeducacion\n  #aprendizajecooperativo\n #seguimoseducando #educacionsecundaria  #virasorovirtual \n  #santotomecorrientes #educacioncorrientes"
+        },
+        {
+          "type": "photos",
+          "images": [
+            {
+              "src": "images/2024-09-30-programa-de-radio-parte-3-sembrando-cultura-cultur/muc76m3a-1.jpg",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "type": "link",
+          "label": "📻Programa de radio",
+          "url": "https://www.instagram.com/didactica_aumentada3.0/reel/DAh9QJRxbO6/"
+        }
+      ],
+      "created": 1790052741666,
+      "updated": 1790052741666
+    },
+    {
       "id": "2024-10-09-robot-mini-sumo",
       "title": "Robot mini sumo",
       "date": "2024-10-09",
