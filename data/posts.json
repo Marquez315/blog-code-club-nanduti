@@ -112,7 +112,7 @@
         "fundación ñanduti",
         "programación"
       ],
-      "cover": "",
+      "cover": "images/2025-09-25-10-edicion-de-la-semana-de-las-ciencias-y-tecnolog/muc5u3ld-1.jpg",
       "summary": "Primer Jornada. Charlas de profesionales",
       "blocks": [
         {
@@ -130,10 +130,19 @@
         {
           "type": "video",
           "url": "https://www.youtube.com/watch?v=RDuuYZbV0R0"
+        },
+        {
+          "type": "photos",
+          "images": [
+            {
+              "src": "images/2025-09-25-10-edicion-de-la-semana-de-las-ciencias-y-tecnolog/muc5u3ld-1.jpg",
+              "caption": ""
+            }
+          ]
         }
       ],
       "created": 1790049769738,
-      "updated": 1790049769738
+      "updated": 1790050478186
     },
     {
       "id": "2025-08-01-3-edicion-expo-carreras-santo-tome-ciudad-universi",
