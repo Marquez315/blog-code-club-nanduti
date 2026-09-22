@@ -2,6 +2,42 @@
   "version": 1,
   "posts": [
     {
+      "id": "2025-09-28-semana-de-la-ciencia-28-09-2025",
+      "title": "Semana de la ciencia 28-09-2025",
+      "date": "2025-09-28",
+      "tags": [
+        "semana de la ciencia",
+        "robótica",
+        "exposiciones",
+        "fundación ñanduti",
+        "programación"
+      ],
+      "cover": "images/2025-09-28-semana-de-la-ciencia-28-09-2025/muc6erig-1.jpg",
+      "summary": "https://www.instagram.com/didactica_aumentada3.0/p/DPIuK2cDopx/ Semana de la ciencia - Colegio Secundario de Adolescentes y Adultos Sargento J. B. Cabral, Santo",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "https://www.instagram.com/didactica_aumentada3.0/p/DPIuK2cDopx/\nSemana de la ciencia - Colegio Secundario de Adolescentes y Adultos Sargento J. B. Cabral, Santo Tomé Corrientes.\n#Sncyt2025colegiojbc #Pensamientocomputacional\n#roboticavirasoro  #programacionvirasoro #enseñanza  #educacion  #aprende #docentes  #secundaria  #conocimiento #steameducation  #tecnologia \n#Virasoro  #virasorociudad \n#corrientesvirasoro #Virasorocorrientes  #compartítuexperiencia #ministeriodeeducacion\n#aprendizajecooperativo\n#seguimoseducando #educacionsecundaria  #planintegraldeeducacióndigital #virasorovirtual \n#santotomecorrientes #educacioncorrientes  #santotoméhaciaadelante #viral"
+        },
+        {
+          "type": "photos",
+          "images": [
+            {
+              "src": "images/2025-09-28-semana-de-la-ciencia-28-09-2025/muc6erig-1.jpg",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "type": "link",
+          "label": "Semana de la ciencia",
+          "url": "https://www.instagram.com/didactica_aumentada3.0/p/DPIuK2cDopx/"
+        }
+      ],
+      "created": 1790051442352,
+      "updated": 1790051442352
+    },
+    {
       "id": "2026-07-05-4-edicion-expo-carreras-santo-tome-ciudad-universi",
       "title": "4° EDICIÓN EXPO CARRERAS SANTO TOME CIUDAD UNIVERSITARIA",
       "date": "2026-07-05",
