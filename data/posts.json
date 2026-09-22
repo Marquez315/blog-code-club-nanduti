@@ -194,7 +194,7 @@
         "exposiciones",
         "fundación ñanduti"
       ],
-      "cover": "",
+      "cover": "images/2024-09-12-9-edicion-institucional-de-la-semana-nacional-de-l/muc5x0cw-1.jpg",
       "summary": "9° Edición Institucional de la Semana Nacional de las Ciencias y Tecnologías",
       "blocks": [
         {
@@ -208,10 +208,19 @@
         {
           "type": "video",
           "url": "https://www.youtube.com/watch?v=6JU4u0s7ugA"
+        },
+        {
+          "type": "photos",
+          "images": [
+            {
+              "src": "images/2024-09-12-9-edicion-institucional-de-la-semana-nacional-de-l/muc5x0cw-1.jpg",
+              "caption": ""
+            }
+          ]
         }
       ],
       "created": 1790049381379,
-      "updated": 1790049413428
+      "updated": 1790050614206
     },
     {
       "id": "2024-07-13-expo-carreras-santo-tome-ciudad-universitaria-segu",
