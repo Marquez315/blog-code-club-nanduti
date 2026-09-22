@@ -2,6 +2,38 @@
   "version": 1,
   "posts": [
     {
+      "id": "2025-08-01-3-edicion-expo-carreras-santo-tome-ciudad-universi",
+      "title": "3° Edición Expo Carreras Santo Tomé Ciudad Universitaria",
+      "date": "2025-08-01",
+      "tags": [
+        "Expo Carreras Santo Tomé",
+        "fundación ñanduti",
+        "exposiciones"
+      ],
+      "cover": "",
+      "summary": "3° Edición Expo Carreras Santo Tomé Ciudad Universitaria",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "3° Edición Expo Carreras Santo Tomé Ciudad Universitaria"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=9cYHoGDrAcY"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=P3Z-nUyrjRw"
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=U8nk6Rli2X4"
+        }
+      ],
+      "created": 1790049601474,
+      "updated": 1790049601474
+    },
+    {
       "id": "2024-09-12-9-edicion-institucional-de-la-semana-nacional-de-l",
       "title": "9° Edición Institucional de la Semana Nacional de las Ciencias y Tecnologías",
       "date": "2024-09-12",
