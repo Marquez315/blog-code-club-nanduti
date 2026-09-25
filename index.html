@@ -452,30 +452,36 @@ html[data-theme="comic"] .foot{font-family:var(--f-body);font-weight:700}
 }
 @media (min-width:621px){.profile .head-txt{grid-column:2}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
-/* ===== Contador de visitas (barra lateral) ===== */
-#visit-sidebar{
-  position:fixed; top:50%; right:10px; transform:translateY(-50%);
-  z-index:40; display:flex; flex-direction:column; align-items:center; gap:6px;
+/* ===== Contador de visitas (pie de página) ===== */
+.foot-wrap{
+  margin-top:34px; display:flex; align-items:center; justify-content:space-between;
+  gap:16px; flex-wrap:wrap;
+}
+.foot-wrap .foot{margin-top:0; text-align:left; flex:1 1 220px}
+.visit-counter{
+  flex:0 0 auto; display:inline-flex; align-items:center; gap:8px;
   background:var(--panel); color:var(--ink); border:2px solid var(--ink);
-  border-radius:10px; padding:10px 8px; box-shadow:0 4px 14px rgba(0,0,0,.25);
+  border-radius:10px; padding:7px 10px; box-shadow:3px 3px 0 rgba(0,0,0,.18);
   font-family:var(--f-body);
 }
-#visit-sidebar .vs-label{
-  font-family:var(--f-px); font-size:9px; letter-spacing:.05em; text-align:center; line-height:1.3;
+.visit-counter .vc-label{
+  font-family:var(--f-px); font-size:9px; letter-spacing:.05em; text-align:right; line-height:1.3; opacity:.9;
 }
-#visit-sidebar img{display:block; max-width:90px; height:auto; border-radius:4px}
-@media (max-width:640px){
-  #visit-sidebar{ top:auto; bottom:10px; right:10px; transform:none; flex-direction:row; padding:6px 10px; }
+.visit-counter .vc-box{display:inline-flex; align-items:center; min-width:64px; min-height:20px}
+.visit-counter .vc-box img{display:block; max-width:110px; height:auto; border-radius:4px}
+.visit-counter .vc-fallback{
+  font-family:var(--f-px); font-size:12px; letter-spacing:.12em;
+  background:#221C14; color:#F4EFDC; padding:4px 9px; border-radius:4px;
+}
+@media (max-width:620px){
+  .foot-wrap{flex-direction:column; align-items:center; text-align:center}
+  .foot-wrap .foot{text-align:center}
 }
 </style>
 </head>
 <body>
 <div class="wrap" id="app"><div class="loading">CARGANDO<span class="blink">…</span></div></div>
 <div id="toast" hidden></div>
-<div id="visit-sidebar" aria-label="Contador de visitas">
-  <span class="vs-label">VISITAS AL<br>BLOG</span>
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmarquez315.github.io%2Fblog-code-club-nanduti%2F&count_bg=%237A1717&title_bg=%23221C14&icon=&icon_color=%23F4EFDC&title=hits&edge_flat=false" alt="Contador de visitas del blog" loading="lazy">
-</div>
 
 <script>
 (function(){
@@ -604,8 +610,17 @@ function gridHTML(){
   }).join('');
 }
 function footHTML(){
-  return '<footer class="foot">'+esc(site.author?('© '+site.author+' · '):'')+'Hecho con Blog Retro'
-    +'<br><span class="credit">inspirado en <a href="https://www.instagram.com/didactica_aumentada3.0/" target="_blank" rel="noopener noreferrer">@didactica_aumentada3.0</a> y <a href="https://www.instagram.com/codeclubnanduti/" target="_blank" rel="noopener noreferrer">@codeclubnanduti</a></span></footer>';
+  return '<div class="foot-wrap">'
+    +'<footer class="foot">'+esc(site.author?('© '+site.author+' · '):'')+'Hecho con Blog Retro'
+    +'<br><span class="credit">inspirado en <a href="https://www.instagram.com/didactica_aumentada3.0/" target="_blank" rel="noopener noreferrer">@didactica_aumentada3.0</a> y <a href="https://www.instagram.com/codeclubnanduti/" target="_blank" rel="noopener noreferrer">@codeclubnanduti</a></span></footer>'
+    +'<div class="visit-counter" aria-label="Contador de visitas">'
+      +'<span class="vc-label">VISITAS<br>AL BLOG</span>'
+      +'<span class="vc-box">'
+        +'<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmarquez315.github.io%2Fblog-code-club-nanduti%2F&count_bg=%237A1717&title_bg=%23221C14&icon=&icon_color=%23F4EFDC&title=hits&edge_flat=false" alt="Contador de visitas del blog" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.hidden=false;">'
+        +'<span class="vc-fallback" hidden>· · ·</span>'
+      +'</span>'
+    +'</div>'
+  +'</div>';
 }
 
 function blockHTML(b,pi){
