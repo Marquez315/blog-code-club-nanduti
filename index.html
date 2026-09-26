@@ -4,7 +4,26 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="blog-retro-template" content="1">
-<title>Blog</title>
+<title>La S@rgento Streaming</title>
+<meta name="description" content="Tecnología, juegos, aprendizaje — Colegio Secundario de Adolescentes y Adultos Sargento Juan Bautista Cabral.">
+<link rel="icon" type="image/jpeg" href="images/site/avatar-muhwp1ld.jpg">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="La S@rgento Streaming">
+<meta property="og:title" content="La S@rgento Streaming">
+<meta property="og:description" content="Tecnología, juegos, aprendizaje — Colegio Secundario de Adolescentes y Adultos Sargento Juan Bautista Cabral.">
+<meta property="og:url" content="https://marquez315.github.io/La-Sargento-Streaming/">
+<meta property="og:image" content="https://marquez315.github.io/La-Sargento-Streaming/images/2026-09-21-semana-de-la-ciencia-colegio-secundario-de-adolesc/muc2lsb1-1.jpg">
+<meta property="og:image:width" content="1376">
+<meta property="og:image:height" content="768">
+<meta property="og:locale" content="es_AR">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="La S@rgento Streaming">
+<meta name="twitter:description" content="Tecnología, juegos, aprendizaje — Colegio Secundario de Adolescentes y Adultos Sargento Juan Bautista Cabral.">
+<meta name="twitter:image" content="https://marquez315.github.io/La-Sargento-Streaming/images/2026-09-21-semana-de-la-ciencia-colegio-secundario-de-adolesc/muc2lsb1-1.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&family=Anton&family=Oswald:wght@400;500;600;700&family=Bangers&family=Comic+Neue:wght@400;700&family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -439,9 +458,9 @@ html[data-theme="revista90"] .foot{font-family:var(--f-type);text-transform:uppe
 /* ===== Cómic · efectos ===== */
 @keyframes comic-pop{from{opacity:0;transform:scale(.85) rotate(-3deg)}to{opacity:1;transform:scale(1) rotate(0deg)}}
 html[data-theme="comic"] .wrap{max-width:1300px}
-html[data-theme="comic"] .profile{text-align:center;background:var(--panel);padding:26px 16px;animation:comic-pop .35s ease both}
+html[data-theme="comic"] .profile{text-align:center;background:var(--panel);padding:26px 16px;animation:comic-pop .35s ease both;align-items:center}
 html[data-theme="comic"] .kicker{display:inline-block;font-family:var(--f-px);font-size:15px;letter-spacing:.05em;color:var(--ink);background:var(--a3);border:3px solid var(--ink);border-radius:999px;padding:2px 16px;transform:rotate(-2deg)}
-html[data-theme="comic"] .avatar{width:80px;height:80px;border-radius:50%;border:4px solid var(--ink);box-shadow:4px 4px 0 var(--ink)}
+html[data-theme="comic"] .avatar{width:clamp(110px,15vw,210px);height:clamp(110px,15vw,210px);border-radius:50%;border:4px solid var(--ink);box-shadow:4px 4px 0 var(--ink);justify-self:center}
 html[data-theme="comic"] .profile h1.px-title{font-family:var(--f-px);font-size:clamp(38px,9vw,72px);letter-spacing:.02em;color:var(--a1);-webkit-text-stroke:2px var(--ink);text-shadow:3px 3px 0 var(--ink)}
 html[data-theme="comic"] .profile .sub{font-family:var(--f-body);font-weight:700;font-size:20px;color:var(--ink)}
 html[data-theme="comic"] .bio{font-size:19px;max-width:62ch;margin:14px auto 0}
@@ -468,7 +487,9 @@ html[data-theme="comic"] figcaption{font-family:var(--f-body);font-weight:700;fo
 html[data-theme="comic"] .callout{background:#fff;font-family:var(--f-px);font-size:19px;border-radius:20px 20px 20px 4px;position:relative}
 html[data-theme="comic"] .callout::before{content:"💥";font-size:20px;top:-14px;left:16px;background:var(--a3);border:3px solid var(--ink);border-radius:50%;width:30px;height:30px;display:flex;align-items:center;justify-content:center}
 html[data-theme="comic"] .pn a{border-radius:8px;background:var(--panel)}
-html[data-theme="comic"] .foot{font-family:var(--f-body);font-weight:700}
+html[data-theme="comic"] .foot{font-family:var(--f-body);font-weight:700;color:var(--ink);opacity:1}
+html[data-theme="comic"] .foot .credit{opacity:1}
+html[data-theme="comic"] .share-row .lbl{color:var(--ink);opacity:1}
 
 @media (min-width:760px){
   html[data-theme="revista90"] .blocks{column-count:2;column-gap:32px;max-width:840px}
