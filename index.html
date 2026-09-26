@@ -7,17 +7,17 @@
 <title>Blog</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&family=Anton&family=Oswald:wght@400;500;600;700&family=Bangers&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&family=Anton&family=Oswald:wght@400;500;600;700&family=Bangers&family=Comic+Neue:wght@400;700&family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 /* ===== Temas ===== */
 :root,html[data-theme="consola"]{
   --bg:#D5D0DD; --panel:#EFEDF4; --ink:#2A2733; --ink2:#5B566B;
-  --a1:#6A4FB3; --a2:#D6403A; --a3:#F0B429; --a4:#3E9B6B; --a5:#3D6FD6; --on-a:#FFFFFF; --on-a3:#2A2733;
+  --a1:#6A4FB3; --a2:#D6403A; --a3:#F0B429; --a4:#35855C; --a5:#3D6FD6; --on-a:#FFFFFF; --on-a3:#2A2733;
   --screen:#1E1C2B; --screen-ink:#ECE9F7;
 }
 html[data-theme="gameboy"]{
   --bg:#9BBC0F; --panel:#B5D02B; --ink:#0F380F; --ink2:#306230;
-  --a1:#306230; --a2:#0F380F; --a3:#8BAC0F; --a4:#306230; --a5:#0F380F; --on-a:#9BBC0F; --on-a3:#0F380F;
+  --a1:#244B24; --a2:#0F380F; --a3:#8BAC0F; --a4:#244B24; --a5:#0F380F; --on-a:#9BBC0F; --on-a3:#0F380F;
   --screen:#0F380F; --screen-ink:#9BBC0F;
 }
 html[data-theme="arcade"]{
@@ -27,7 +27,7 @@ html[data-theme="arcade"]{
 }
 html[data-theme="nanduti"]{
   --bg:#0F4C55; --panel:#FFFFFF; --ink:#12313A; --ink2:#4B6770;
-  --a1:#E63946; --a2:#2A9D8F; --a3:#F4B942; --a4:#8E5CF2; --a5:#0F4C55; --on-a:#FFFFFF; --on-a3:#12313A;
+  --a1:#D83642; --a2:#238377; --a3:#F4B942; --a4:#8657E4; --a5:#0F4C55; --on-a:#FFFFFF; --on-a3:#12313A;
   --screen:#12313A; --screen-ink:#FFFFFF;
 }
 html[data-theme="norton"]{
@@ -38,7 +38,7 @@ html[data-theme="norton"]{
 }
 html[data-theme="msdos"]{
   --bg:#0000AA; --panel:#AAAAAA; --ink:#000000; --ink2:#444444;
-  --a1:#0000AA; --a2:#AA0000; --a3:#AAAA00; --a4:#00AA00; --a5:#00AAAA; --on-a:#FFFFFF; --on-a3:#FFFFFF;
+  --a1:#0000AA; --a2:#AA0000; --a3:#7A7A00; --a4:#008900; --a5:#008181; --on-a:#FFFFFF; --on-a3:#FFFFFF;
   --screen:#0000AA; --screen-ink:#FFFFFF;
   --f-px:'VT323','Courier New',monospace; --f-body:'VT323','Courier New',monospace;
 }
@@ -56,13 +56,13 @@ html[data-theme="ambar"]{
 }
 html[data-theme="win31"]{
   --bg:#008080; --panel:#C0C0C0; --ink:#000000; --ink2:#444444;
-  --a1:#000080; --a2:#800000; --a3:#808000; --a4:#008000; --a5:#000080; --on-a:#FFFFFF; --on-a3:#FFFFFF;
+  --a1:#000080; --a2:#800000; --a3:#787800; --a4:#008000; --a5:#000080; --on-a:#FFFFFF; --on-a3:#FFFFFF;
   --screen:#000080; --screen-ink:#FFFFFF; --bv-lt:#FFFFFF; --bv-dk:#404040;
   --f-px:Tahoma,'Segoe UI',Arial,sans-serif; --f-body:Tahoma,'Segoe UI',Arial,sans-serif;
 }
 html[data-theme="hotdog"]{
   --bg:#FF0000; --panel:#FFFF00; --ink:#000000; --ink2:#5C3B00;
-  --a1:#FF0000; --a2:#000000; --a3:#FFFFFF; --a4:#FFA500; --a5:#FF0000; --on-a:#FFFFFF; --on-a3:#000000;
+  --a1:#E90000; --a2:#000000; --a3:#FFFFFF; --a4:#A16800; --a5:#E90000; --on-a:#FFFFFF; --on-a3:#000000;
   --screen:#000000; --screen-ink:#FFFF00; --bv-lt:#FFFFFF; --bv-dk:#800000;
   --f-px:Tahoma,'Segoe UI',Arial,sans-serif; --f-body:Tahoma,'Segoe UI',Arial,sans-serif;
 }
@@ -76,7 +76,7 @@ html[data-theme="diario90"]{
 }
 html[data-theme="revista90"]{
   --bg:#F3ECDD; --panel:#FFFFFF; --ink:#1A1A1A; --ink2:#6B6558;
-  --a1:#FF2D78; --a2:#00AEEF; --a3:#FFC300; --a4:#7B2CBF; --a5:#1A1A1A; --on-a:#FFFFFF; --on-a3:#1A1A1A;
+  --a1:#DB2767; --a2:#007CAB; --a3:#FFC300; --a4:#7B2CBF; --a5:#1A1A1A; --on-a:#FFFFFF; --on-a3:#1A1A1A;
   --screen:#1A1A1A; --screen-ink:#FFC300;
   --f-px:'Anton',Impact,'Arial Narrow',sans-serif;
   --f-body:'PT Serif',Georgia,'Times New Roman',serif;
@@ -84,10 +84,45 @@ html[data-theme="revista90"]{
 }
 html[data-theme="comic"]{
   --bg:#FFE067; --panel:#FFFFFF; --ink:#0B0B0B; --ink2:#3A3A3A;
-  --a1:#E63946; --a2:#1D4ED8; --a3:#FFD60A; --a4:#2A9D34; --a5:#0B0B0B; --on-a:#FFFFFF; --on-a3:#0B0B0B;
+  --a1:#D83642; --a2:#1D4ED8; --a3:#FFD60A; --a4:#24872D; --a5:#0B0B0B; --on-a:#FFFFFF; --on-a3:#0B0B0B;
   --screen:#0B0B0B; --screen-ink:#FFD60A;
   --f-px:'Bangers',cursive; --f-body:'Comic Neue','Comic Sans MS',cursive;
   --f-type:'Comic Neue','Comic Sans MS',cursive;
+}
+html[data-theme="netflix"]{
+  --bg:#141414; --panel:#1F1F1F; --ink:#FFFFFF; --ink2:#B3B3B3;
+  --a1:#E50914; --a2:#B20710; --a3:#F5F5F1; --a4:#564D4D; --a5:#0071EB; --on-a:#FFFFFF; --on-a3:#141414;
+  --screen:#000000; --screen-ink:#E50914;
+  --f-px:'Bebas Neue',Impact,sans-serif; --f-body:'Inter',Arial,sans-serif;
+  --f-type:'Inter',Arial,sans-serif;
+}
+html[data-theme="twitch"]{
+  --bg:#0E0E10; --panel:#18181B; --ink:#EFEFF1; --ink2:#ADADB8;
+  --a1:#9146FF; --a2:#772CE8; --a3:#EFEFF1; --a4:#008550; --a5:#D43561; --on-a:#FFFFFF; --on-a3:#0E0E10;
+  --screen:#000000; --screen-ink:#9146FF;
+  --f-px:'Bebas Neue',Impact,sans-serif; --f-body:'Inter',Arial,sans-serif;
+  --f-type:'Inter',Arial,sans-serif;
+}
+html[data-theme="spotify"]{
+  --bg:#121212; --panel:#181818; --ink:#FFFFFF; --ink2:#B3B3B3;
+  --a1:#1DB954; --a2:#1ED760; --a3:#FFFFFF; --a4:#F0F0F0; --a5:#B3B3B3; --on-a:#000000; --on-a3:#121212;
+  --screen:#000000; --screen-ink:#1DB954;
+  --f-px:'Bebas Neue',Impact,sans-serif; --f-body:'Inter',Arial,sans-serif;
+  --f-type:'Inter',Arial,sans-serif;
+}
+html[data-theme="youtube"]{
+  --bg:#F9F9F9; --panel:#FFFFFF; --ink:#0F0F0F; --ink2:#606060;
+  --a1:#E90000; --a2:#CC0000; --a3:#0F0F0F; --a4:#606060; --a5:#065FD4; --on-a:#FFFFFF; --on-a3:#FFFFFF;
+  --screen:#0F0F0F; --screen-ink:#FF0000;
+  --f-px:'Bebas Neue',Impact,sans-serif; --f-body:'Inter',Arial,sans-serif;
+  --f-type:'Inter',Arial,sans-serif;
+}
+html[data-theme="disneyplus"]{
+  --bg:#040714; --panel:#0F1E3C; --ink:#FFFFFF; --ink2:#A0AEC0;
+  --a1:#0F63FF; --a2:#01143C; --a3:#F9F9F9; --a4:#3D5AFE; --a5:#113CCF; --on-a:#FFFFFF; --on-a3:#0F1E3C;
+  --screen:#000000; --screen-ink:#0F63FF;
+  --f-px:'Bebas Neue',Impact,sans-serif; --f-body:'Inter',Arial,sans-serif;
+  --f-type:'Inter',Arial,sans-serif;
 }
 :root{
   --f-px:'Press Start 2P','Courier New',monospace;
@@ -182,7 +217,7 @@ button{font:inherit;color:inherit;cursor:pointer;background:none;border:0;paddin
 html[data-theme="consola"] :focus-visible,html[data-theme="nanduti"] :focus-visible{outline-color:var(--a1)}
 img{max-width:100%;display:block}
 [hidden]{display:none!important}
-.wrap{max-width:980px;margin:0 auto;padding:22px 16px 40px}
+.wrap{max-width:1400px;margin:0 auto;padding:22px clamp(16px,4vw,64px) 40px}
 
 /* ===== Piezas retro ===== */
 .px{border:3px solid var(--line);box-shadow:5px 5px 0 var(--line);background:var(--panel)}
@@ -200,18 +235,19 @@ html[data-theme="gameboy"] .btn.c2{background:var(--a3);color:var(--ink)}
 .px-title{font-family:var(--f-px);letter-spacing:.02em;line-height:1.45;margin:0;text-wrap:balance}
 
 /* ===== Perfil ===== */
-.profile{display:grid;grid-template-columns:auto 1fr;gap:18px 22px;padding:20px;margin-bottom:22px}
-.avatar{width:104px;height:104px;border:3px solid var(--line);background:var(--screen);display:grid;place-items:center;overflow:hidden;box-shadow:4px 4px 0 var(--line)}
+.profile{display:grid;grid-template-columns:auto 1fr;gap:18px clamp(18px,3vw,32px);padding:clamp(18px,2.6vw,30px);margin-bottom:22px}
+.avatar{width:clamp(88px,9vw,160px);height:clamp(88px,9vw,160px);border:3px solid var(--line);background:var(--screen);display:grid;place-items:center;overflow:hidden;box-shadow:4px 4px 0 var(--line)}
 .avatar img{width:100%;height:100%;object-fit:cover;image-rendering:auto}
 .avatar svg{width:60%;height:60%}
-.profile h1{font-size:clamp(15px,3.4vw,24px)}
-.profile .sub{font-size:26px;color:var(--ink2);margin:6px 0 0;line-height:1.05}
-.stats{display:flex;gap:22px;margin:12px 0 0;flex-wrap:wrap}
+.profile h1{font-size:clamp(20px,3.6vw,38px)}
+.profile .sub{font-size:clamp(16px,2vw,26px);color:var(--ink2);margin:6px 0 0;line-height:1.2}
+.kicker{display:block;margin:10px 0 0;font:400 13px var(--f-px);letter-spacing:.05em;color:var(--ink2);text-transform:uppercase}
+.stats{display:flex;gap:clamp(16px,3vw,32px);margin:14px 0 0;flex-wrap:wrap}
 .stats div{line-height:1}
-.stats b{display:block;font:400 15px var(--f-px);margin-bottom:6px}
-.stats span{color:var(--ink2);font-size:20px}
+.stats b{display:block;font:400 clamp(14px,1.6vw,18px) var(--f-px);margin-bottom:6px}
+.stats span{color:var(--ink2);font-size:clamp(15px,1.4vw,21px)}
 .profile .head{display:contents}
-.bio{grid-column:1/-1;margin:0;white-space:pre-line;max-width:60ch}
+.bio{grid-column:1/-1;margin:14px 0 0;white-space:pre-line;max-width:70ch;font-size:clamp(18px,1.6vw,22px)}
 .links{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:10px}
 .links .btn{font-size:20px;padding:4px 12px}
 .links .btn:nth-child(4n+2){background:var(--a2)}
@@ -228,14 +264,15 @@ html[data-theme="gameboy"] .links .btn{background:var(--a1);color:var(--bg)}
 .search::placeholder{color:var(--ink2)}
 
 /* ===== Grilla tipo feed ===== */
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-.tile{position:relative;display:block;aspect-ratio:1;border:3px solid var(--line);background:var(--screen);color:var(--screen-ink);overflow:hidden;text-decoration:none;box-shadow:4px 4px 0 var(--line)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:14px 10px;align-items:start}
+.tile{position:relative;display:flex;flex-direction:column;height:100%;border:3px solid var(--line);background:var(--panel);color:var(--ink);overflow:hidden;text-decoration:none;box-shadow:4px 4px 0 var(--line)}
 .tile:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--line)}
-.tile img{width:100%;height:100%;object-fit:cover}
+.tile .thumb{position:relative;aspect-ratio:1;background:var(--screen);flex:none;overflow:hidden}
+.tile img{width:100%;height:100%;object-fit:cover;display:block}
 .tile .ph{position:absolute;inset:0;display:grid;place-items:center;font:400 clamp(28px,8vw,64px) var(--f-px);color:var(--on-a)}
-.tile .cap{position:absolute;left:0;right:0;bottom:0;padding:6px 8px 5px;background:var(--screen);color:var(--screen-ink);border-top:3px solid var(--line);font-size:20px;line-height:1.05;
-  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.tile .multi{position:absolute;top:6px;right:6px;width:22px;height:22px;background:var(--screen);padding:3px;border:2px solid var(--screen-ink)}
+.tile .cap{padding:8px 9px;background:var(--panel);color:var(--ink);border-top:3px solid var(--line);font-size:clamp(13px,2.2vw,17px);line-height:1.28;font-weight:600;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;word-break:break-word}
+.tile .multi{position:absolute;top:6px;right:6px;width:22px;height:22px;background:var(--screen);padding:3px;border:2px solid var(--screen-ink);z-index:1}
 .tile .multi svg{width:100%;height:100%}
 .ph-0{background:var(--a1)}.ph-1{background:var(--a2)}.ph-2{background:var(--a3);color:var(--on-a3)!important}.ph-3{background:var(--a4)}.ph-4{background:var(--a5)}
 .ph::before{content:"";position:absolute;inset:0;background:
@@ -313,7 +350,7 @@ html[data-theme="consola"] .foot,html[data-theme="gameboy"] .foot{color:var(--in
 @keyframes d90-clip{from{opacity:0;transform:translateY(16px) rotate(var(--r,0deg)) scale(.95)}to{opacity:1;transform:translateY(0) rotate(var(--r,0deg)) scale(1)}}
 @keyframes d90-develop{from{opacity:0;filter:saturate(1.1) contrast(1.5) brightness(.55) blur(3px)}to{opacity:1;filter:saturate(1.1) contrast(1.08) brightness(1) blur(0)}}
 @keyframes d90-flicker{0%,100%{opacity:.9}50%{opacity:1}}
-html[data-theme="diario90"] .wrap{max-width:900px}
+html[data-theme="diario90"] .wrap{max-width:1200px}
 html[data-theme="diario90"] .px-title{font-weight:900}
 html[data-theme="diario90"] .kicker{display:block;font-family:var(--f-type);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);border-top:1px solid var(--ink2);border-bottom:1px solid var(--ink2);padding:5px 0;margin:12px auto 0;max-width:560px;text-align:center;animation:d90-flicker 5s ease-in-out infinite}
 html[data-theme="diario90"] .profile{display:block;text-align:center;border:0;border-top:7px double var(--ink);border-bottom:2px solid var(--ink);box-shadow:none;background:var(--panel);padding:24px 16px 22px;animation:d90-drop .6s cubic-bezier(.2,.8,.2,1) both}
@@ -372,7 +409,7 @@ html[data-theme="diario90"] #lb img{filter:saturate(1.1) contrast(1.1)}
 }
 
 /* ===== Revista 90 · efectos ===== */
-html[data-theme="revista90"] .wrap{max-width:920px}
+html[data-theme="revista90"] .wrap{max-width:1300px}
 html[data-theme="revista90"] .profile{text-align:center;border:0;background:var(--panel);padding:26px 16px;position:relative;overflow:hidden}
 html[data-theme="revista90"] .profile::before{content:"";position:absolute;left:0;right:0;top:0;height:10px;background:linear-gradient(90deg,var(--a1),var(--a2),var(--a3),var(--a4))}
 html[data-theme="revista90"] .kicker{display:inline-block;font-family:var(--f-type);font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:#fff;background:var(--a1);padding:4px 14px;border-radius:999px;margin-bottom:10px}
@@ -401,7 +438,7 @@ html[data-theme="revista90"] .foot{font-family:var(--f-type);text-transform:uppe
 
 /* ===== Cómic · efectos ===== */
 @keyframes comic-pop{from{opacity:0;transform:scale(.85) rotate(-3deg)}to{opacity:1;transform:scale(1) rotate(0deg)}}
-html[data-theme="comic"] .wrap{max-width:920px}
+html[data-theme="comic"] .wrap{max-width:1300px}
 html[data-theme="comic"] .profile{text-align:center;background:var(--panel);padding:26px 16px;animation:comic-pop .35s ease both}
 html[data-theme="comic"] .kicker{display:inline-block;font-family:var(--f-px);font-size:15px;letter-spacing:.05em;color:var(--ink);background:var(--a3);border:3px solid var(--ink);border-radius:999px;padding:2px 16px;transform:rotate(-2deg)}
 html[data-theme="comic"] .avatar{width:80px;height:80px;border-radius:50%;border:4px solid var(--ink);box-shadow:4px 4px 0 var(--ink)}
@@ -452,31 +489,6 @@ html[data-theme="comic"] .foot{font-family:var(--f-body);font-weight:700}
 }
 @media (min-width:621px){.profile .head-txt{grid-column:2}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
-/* ===== Contador de visitas (pie de página) ===== */
-.foot-wrap{
-  margin-top:34px; display:flex; align-items:center; justify-content:space-between;
-  gap:16px; flex-wrap:wrap;
-}
-.foot-wrap .foot{margin-top:0; text-align:left; flex:1 1 220px}
-.visit-counter{
-  flex:0 0 auto; display:inline-flex; align-items:center; gap:8px;
-  background:var(--panel); color:var(--ink); border:2px solid var(--ink);
-  border-radius:10px; padding:7px 10px; box-shadow:3px 3px 0 rgba(0,0,0,.18);
-  font-family:var(--f-body);
-}
-.visit-counter .vc-label{
-  font-family:var(--f-px); font-size:9px; letter-spacing:.05em; text-align:right; line-height:1.3; opacity:.9;
-}
-.visit-counter .vc-box{display:inline-flex; align-items:center; min-width:64px; min-height:20px}
-.visit-counter .vc-box img{display:block; max-width:110px; height:auto; border-radius:4px}
-.visit-counter .vc-fallback{
-  font-family:var(--f-px); font-size:12px; letter-spacing:.12em;
-  background:#221C14; color:#F4EFDC; padding:4px 9px; border-radius:4px;
-}
-@media (max-width:620px){
-  .foot-wrap{flex-direction:column; align-items:center; text-align:center}
-  .foot-wrap .foot{text-align:center}
-}
 </style>
 </head>
 <body>
@@ -557,7 +569,7 @@ function allTags(){var m={};posts.forEach(function(p){(p.tags||[]).forEach(funct
 
 /* ---------- vistas ---------- */
 var app=document.getElementById('app');
-var THEME_CHROME={consola:'pixel',gameboy:'pixel',arcade:'pixel',nanduti:'pixel',norton:'term',msdos:'term',fosforo:'term',ambar:'term',win31:'bevel',hotdog:'bevel',diario90:'paper',revista90:'mag',comic:'comic'};
+var THEME_CHROME={consola:'pixel',gameboy:'pixel',arcade:'pixel',nanduti:'pixel',norton:'term',msdos:'term',fosforo:'term',ambar:'term',win31:'bevel',hotdog:'bevel',diario90:'paper',revista90:'mag',comic:'comic',netflix:'mag',twitch:'mag',spotify:'mag',youtube:'mag',disneyplus:'mag'};
 var THEME_SCAN={fosforo:1,ambar:1};
 function applySite(){
   var th = THEME_CHROME.hasOwnProperty(site.theme) ? site.theme : 'diario90';
@@ -606,21 +618,12 @@ function gridHTML(){
   return list.map(function(p,i){
     var c=coverOf(p),src=imgSrc(c);
     var inner=src?'<img src="'+esc(src)+'" alt="" loading="lazy" decoding="async">':'<div class="ph ph-'+(i%5)+'"><span>'+esc((p.title||'?').trim().charAt(0).toUpperCase())+'</span></div>';
-    return '<a class="tile" href="#/post/'+encodeURIComponent(p.id)+'" aria-label="'+esc(p.title)+'">'+inner+(photoCount(p)>1?'<span class="multi">'+ICON_MULTI+'</span>':'')+'<span class="cap">'+esc(p.title)+'</span></a>';
+    return '<a class="tile" href="#/post/'+encodeURIComponent(p.id)+'" aria-label="'+esc(p.title)+'" title="'+esc(p.title)+'"><div class="thumb">'+inner+(photoCount(p)>1?'<span class="multi">'+ICON_MULTI+'</span>':'')+'</div><span class="cap">'+esc(p.title)+'</span></a>';
   }).join('');
 }
 function footHTML(){
-  return '<div class="foot-wrap">'
-    +'<footer class="foot">'+esc(site.author?('© '+site.author+' · '):'')+'Hecho con Blog Retro'
-    +'<br><span class="credit">inspirado en <a href="https://www.instagram.com/didactica_aumentada3.0/" target="_blank" rel="noopener noreferrer">@didactica_aumentada3.0</a> y <a href="https://www.instagram.com/codeclubnanduti/" target="_blank" rel="noopener noreferrer">@codeclubnanduti</a></span></footer>'
-    +'<div class="visit-counter" aria-label="Contador de visitas">'
-      +'<span class="vc-label">VISITAS<br>AL BLOG</span>'
-      +'<span class="vc-box">'
-        +'<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmarquez315.github.io%2Fblog-code-club-nanduti%2F&count_bg=%237A1717&title_bg=%23221C14&icon=&icon_color=%23F4EFDC&title=hits&edge_flat=false" alt="Contador de visitas del blog" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.hidden=false;">'
-        +'<span class="vc-fallback" hidden>· · ·</span>'
-      +'</span>'
-    +'</div>'
-  +'</div>';
+  return '<footer class="foot">'+esc(site.author?('© '+site.author+' · '):'')+'Hecho con Blog Retro'
+    +'<br><span class="credit">inspirado en <a href="https://www.instagram.com/didactica_aumentada3.0/" target="_blank" rel="noopener noreferrer">@didactica_aumentada3.0</a> y <a href="https://www.instagram.com/codeclubnanduti/" target="_blank" rel="noopener noreferrer">@codeclubnanduti</a></span></footer>';
 }
 
 function blockHTML(b,pi){
